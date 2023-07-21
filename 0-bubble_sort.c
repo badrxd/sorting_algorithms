@@ -1,5 +1,4 @@
 #include "sort.h"
-
 /**
 * bubble_sort - Bubble sort function
 * @array: array that will be stored
