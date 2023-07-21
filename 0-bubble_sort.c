@@ -1,10 +1,9 @@
 #include "sort.h"
 /**
-* bubble_sort - Bubble sort function
-* @array: array that will be stored
-* @size: size of the array
-*/
-
+ * bubble_sort - Bubble sort function
+ * @array: array that will be stored
+ * @size: size of the array
+ */
 void bubble_sort(int *array, size_t size)
 {
 	size_t i, j;
