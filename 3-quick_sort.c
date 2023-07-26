@@ -30,11 +30,14 @@ int partition(int *array, int low, int hight, int size)
 	}
 
 	}
+	if (array[hight] < array[i + 1])
+	{
 	tmp = array[i + 1];
 	array[i + 1] = array[hight];
 	array[hight] = tmp;
 	if (i + 1 != j)
 		print_array(array, size);
+	}
 	return (i + 1);
 }
 
